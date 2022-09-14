@@ -17,7 +17,7 @@ body {
 }
 
 #question {
-  padding: 10px 16px;
+  padding: 1rem 2rem;
   height: 100px;
   display: flex;
   align-items: center;
@@ -36,11 +36,11 @@ body {
 }
 
 #display {
-  height: 100px;
+  height: 150px;
   display: flex;
   flex-wrap: wrap;
   align-items: center;
-  padding: 1rem 5rem;
+  padding: 1rem 2rem;
   color: white;
   font-size: 26px;
   background-color: #171717;

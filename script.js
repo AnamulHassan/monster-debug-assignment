@@ -22,7 +22,7 @@ fetch('./texts.json')
 // checks the user typed character and displays accordingly
 const typeController = e => {
   const newLetter = e.key;
-  console.log(e.key);
+  e.preventDefault();
 
   // Handle backspace press
   if (newLetter == 'Backspace') {
@@ -52,7 +52,6 @@ const typeController = e => {
       newLetter === ' ' ? '▪' : newLetter
     }</span>`;
     errorCount++;
-    console.log(errorCount);
   }
 
   // check if given question text is equal to user typed text
