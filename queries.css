@@ -1,0 +1,47 @@
+@media (max-width: 84em) {
+  #histories {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 12px;
+  }
+}
+@media (max-width: 59em) {
+  #question {
+    font-size: 22px;
+    height: 150px;
+  }
+  #histories {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 12px;
+  }
+  .card {
+    margin-bottom: 10px;
+  }
+}
+@media (max-width: 44em) {
+  #histories {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+}
+@media (max-width: 34em) {
+  #question {
+    font-size: 20px;
+    height: 150px;
+  }
+  #display {
+    height: 180px;
+    font-size: 20px;
+    line-height: 0.2;
+  }
+  #histories {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+  .card {
+    margin-bottom: 10px;
+  }
+}
