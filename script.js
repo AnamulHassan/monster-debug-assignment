@@ -113,6 +113,7 @@ const start = () => {
   countdownOverlay.style.display = 'flex';
 
   const startCountdown = setInterval(() => {
+    console.log(count);
     countdownOverlay.innerHTML = `<h1>${count === 0 ? '' : count}</h1>`;
 
     // finished timer
@@ -124,7 +125,6 @@ const start = () => {
 
       clearInterval(startCountdown);
       startTime = new Date().getTime();
-      count = 3;
     }
     count--;
   }, 1000);
